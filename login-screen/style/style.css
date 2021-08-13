@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../imagens/purple-gradient.jpg);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 160px;
+    padding-top: 20px;
+}
+
+label {
+    font-family: "Trebuchet MS" Helvetica, sans-serif;
+    display: block;
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+    border: 2px solid #00FA9A;
+}
+
+label.mostrar {
+    font-size: 12px;
+}
+
+
+div.esqueceu {
+    display: inline-block;
+    margin-left: 225px;
+}
+
+.esqueceu {
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #00FA9A;
+    font: 0.9em 'Trebuchet MS', Helvetica, sans-serif;
+
+}
+
+a:hover.esqueceu {
+    color: #0cbe7a;
+}
+
+input.submit {
+    color: #fff;
+    background-color: #00FA9A;
+    padding: 5px 20px;
+    height: 45px;
+    width: 25%;
+}
+
+input.submit:hover {
+    background-color: #0cbe7a;
+}

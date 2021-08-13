@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+
+    <script>
+        
+        function showPassword() {
+            var a = document.getElementById("senha")
+            if (a.type === "password") {
+                a.type = "text"
+            } else {
+                a.type = "password"
+            }
+        }
+
+    </script>
+
+
+    <title>Login</title>
+
+<body>
+    
+    <div id="container">
+
+        <h1>Welcome!</h1>
+
+            <form>
+                
+                <div>
+                    <label for="email">Email</label>
+                    <input class="email" type="text" name="email" id="email">
+                </div>
+
+                <div>
+                    <label for="senha">Password</label>
+                    <input class="senha" type="password" name="senha" id="senha">
+                </div>
+
+                <label class="mostrar">
+                    <input type="checkbox" onclick="showPassword()">
+                    Show password
+                </label>
+
+               <div class="esqueceu">
+                    <a class="esqueceu" href="">Forgot password?</a>
+
+                </div>
+
+                <div>
+                    <input class="submit" type="submit" name="" value="Sign in">
+                </div>
+
+                
+
+            </form>
+        
+    </div>
+
+</body>
+</html>
